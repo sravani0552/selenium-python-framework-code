@@ -16,6 +16,7 @@ class BaseDriver:
         list_of_elements=wait.until(EC.presence_of_all_elements_located((locator_type,locator)))
         return list_of_elements
 
+# some code from SDET2
 
 
 
